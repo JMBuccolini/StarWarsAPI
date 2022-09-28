@@ -5,16 +5,21 @@ import "./styles.css";
 export default function LandingPage() {
   return (
     <div className="landing">
-      <h1>StarWars</h1>
-      <Link to="/darkside">
-        <button className="landing-btn">Dark Side</button>
-      </Link>
-      <Link to="/lightside">
-        <button className="landing-btn">Light Side</button>
-      </Link>
-      <Link to="/allchar">
-        <button className="landing-btn">All Characters</button>
-      </Link>
+      <div className="darkside-div">
+        <Link to="/darkside">
+          <button className="darkside-btn">Dark Side</button>
+        </Link>
+      </div>
+      <div className="lightside-div">
+        <Link to="/lightside">
+          <button className="lightside-btn">Light Side</button>
+        </Link>
+      </div>
+      <div className="allchar-div">
+        <Link to="/allchar">
+          <button className="allchar-btn">Both</button>
+        </Link>
+      </div>
     </div>
   );
 }
