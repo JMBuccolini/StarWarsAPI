@@ -1,0 +1,10 @@
+input{
+    border-radius: 5px;
+    height: 20px;
+    width: 200px;
+}
+
+.searchbar_div{
+    align-self: center;
+    margin-left: 20px;
+}
